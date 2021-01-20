@@ -16,8 +16,6 @@ namespace ExContaBancaria
             char resp = char.Parse(Console.ReadLine());
 
 
-             = new ContaBancaria(numero, titular);
-
             if (resp == 's' || resp == 'S')
             {
                 Console.Write("Entre o valor de depósito inicial: ");
@@ -37,8 +35,8 @@ namespace ExContaBancaria
 
             /* Entrada de deposito */
             Console.Write("Entre um valor para depósito: ");
-            double saldo = double.Parse(Console.ReadLine());
-            contaBancaria.Deposito(saldo);
+            double quantia = double.Parse(Console.ReadLine());
+            contaBancaria.Deposito(quantia);
             Console.WriteLine("Dados da conta Atualizado: ");
             Console.WriteLine(contaBancaria);
 

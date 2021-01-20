@@ -19,9 +19,9 @@ namespace ExContaBancaria
             _titular = titular;
         }
 
-        public ContaBancaria(int numero, string titular, double saldo): this(numero, titular)
+        public ContaBancaria(int numero, string titular, double depositioInicial): this(numero, titular)
         {
-            Saldo = 0.0;
+            Deposito(depositioInicial);
 
         }
 
