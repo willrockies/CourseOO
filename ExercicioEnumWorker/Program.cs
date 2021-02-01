@@ -32,7 +32,7 @@ namespace ExercicioEnumWorker
                 
                     Console.WriteLine($"Enter #{i} contract data:");
                     Console.Write("Date (DD/MM/YYYY): ");
-                    DateTime date = DateTime.Parse(Console.ReadLine());
+                    DateTime date = DateTime.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     Console.Write("Value per hour: ");
                     double valuePerHour = double.Parse(Console.ReadLine(), CultureInfo.InvariantCulture);
                     Console.Write("Duration (hours): ");
