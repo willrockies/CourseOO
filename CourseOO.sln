@@ -37,11 +37,13 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioSolucaoComInterfac
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioInterfaceContratos", "ExercicioInterfaceContratos\ExercicioInterfaceContratos.csproj", "{7A220DAD-087F-45D0-9779-C728DD43631E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioSet", "ExercicioSet\ExercicioSet.csproj", "{11302918-CA43-465F-BA75-3DB0F8602CA7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioSet", "ExercicioSet\ExercicioSet.csproj", "{11302918-CA43-465F-BA75-3DB0F8602CA7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioConjuntos", "ExercicioConjuntos\ExercicioConjuntos.csproj", "{EFFADFF7-6C6D-4FBF-995B-9540DDCE6EC8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioConjuntos", "ExercicioConjuntos\ExercicioConjuntos.csproj", "{EFFADFF7-6C6D-4FBF-995B-9540DDCE6EC8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioDicionario", "ExercicioDicionario\ExercicioDicionario.csproj", "{E9FC7D7F-0D44-45CE-A43C-F48611D42D70}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioDicionario", "ExercicioDicionario\ExercicioDicionario.csproj", "{E9FC7D7F-0D44-45CE-A43C-F48611D42D70}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExerciciosLambdaDelegatesLinq", "ExerciciosLambdaDelegatesLinq\ExerciciosLambdaDelegatesLinq.csproj", "{C2F957DE-69FB-438A-AF24-833E967F752B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -129,6 +131,10 @@ Global
 		{E9FC7D7F-0D44-45CE-A43C-F48611D42D70}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E9FC7D7F-0D44-45CE-A43C-F48611D42D70}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E9FC7D7F-0D44-45CE-A43C-F48611D42D70}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C2F957DE-69FB-438A-AF24-833E967F752B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C2F957DE-69FB-438A-AF24-833E967F752B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C2F957DE-69FB-438A-AF24-833E967F752B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C2F957DE-69FB-438A-AF24-833E967F752B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
