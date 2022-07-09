@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.30611.23
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32526.322
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CourseOO", "CourseOO\CourseOO.csproj", "{D3F7A3AC-2440-415D-8B85-27FAC9ABCFF9}"
 EndProject
@@ -45,7 +45,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioDicionario", "Exer
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExerciciosLambdaDelegatesLinq", "ExerciciosLambdaDelegatesLinq\ExerciciosLambdaDelegatesLinq.csproj", "{C2F957DE-69FB-438A-AF24-833E967F752B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioConsultaExpressaoLambda", "ExercicioConsultaExpressãoLambda\ExercicioConsultaExpressaoLambda.csproj", "{EC7F2897-CF61-4665-B48E-5DE6125E8267}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExercicioConsultaExpressaoLambda", "ExercicioConsultaExpressãoLambda\ExercicioConsultaExpressaoLambda.csproj", "{EC7F2897-CF61-4665-B48E-5DE6125E8267}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "secao17-expressoesLambda-delegates-linq", "secao17-expressoesLambda-delegates-linq\secao17-expressoesLambda-delegates-linq.csproj", "{CFFD1911-3ED9-40AE-A0B8-99D32F7C4C2D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExercicioLinqEmployee", "ExercicioLinqEmployee\ExercicioLinqEmployee.csproj", "{C3914F22-F9BD-4C46-9300-1B08D8207F09}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -141,6 +145,14 @@ Global
 		{EC7F2897-CF61-4665-B48E-5DE6125E8267}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EC7F2897-CF61-4665-B48E-5DE6125E8267}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EC7F2897-CF61-4665-B48E-5DE6125E8267}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CFFD1911-3ED9-40AE-A0B8-99D32F7C4C2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFFD1911-3ED9-40AE-A0B8-99D32F7C4C2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFFD1911-3ED9-40AE-A0B8-99D32F7C4C2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFFD1911-3ED9-40AE-A0B8-99D32F7C4C2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C3914F22-F9BD-4C46-9300-1B08D8207F09}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C3914F22-F9BD-4C46-9300-1B08D8207F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C3914F22-F9BD-4C46-9300-1B08D8207F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C3914F22-F9BD-4C46-9300-1B08D8207F09}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
