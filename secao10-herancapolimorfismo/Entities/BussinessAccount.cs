@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace secao10_herancapolimorfismo.Entities
 {
-    internal class BussinessAccount : Account
+    public class BussinessAccount : Account
     {
         public double LoanLimit { get; set; }
 
